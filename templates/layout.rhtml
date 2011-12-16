@@ -1,4 +1,4 @@
-<!doctype html>
+<!--<!doctype html>
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
@@ -14,5 +14,62 @@
       powered by <a href="http://cloudhead.io/toto">toto</a>
     </footer>
   </body>
-</html>
+</html>-->
 
+<!------------------------------------->
+
+<!doctype html>
+
+<html lang='en'>
+
+<head>
+	<meta charset='utf-8' />
+	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Abel' />
+	<link rel='stylesheet' href='/css/style.css' />
+	<title>CTXNA</title>
+</head>
+
+<body>
+	<h1>Central Texas XNA User Group</h1>
+	<section>
+		<h1><span>Join Us for Our Next Meeting</span></h1>
+      <%= yield %> 
+	</section>
+	<section class='group'>
+		<h1><span>About CTXNA</span></h1>
+		<aside>
+			<p>
+				CTXNA is held on the first Tuesday of every month at the Headspring offices:
+			</p>
+			<p class='address'>
+				4807 Spicewood Springs Rd.<br />
+				Bldg. 4, Suite 201<br />
+				Austin, TX 78759
+			</p>
+			<a href='http://g.co/maps/43bpr' title='View a map of the CTXNA meeting location'><img class='map' src='http://maps.googleapis.com/maps/api/staticmap?center=4807+Spicewood+Springs,Austin+TX&zoom=12&size=250x150&sensor=false&markers=color:0x798fad%7Clabel:%7C30.376312, -97.765392' /></a>
+		</aside>
+		<p>
+			Founded in 2009, the Austin, Texas&ndash;based <em>Central Texas XNA
+			User Group</em> brings together professional software developers,
+			students, and gaming enthusiasts to create an informal,
+			learning-focused open forum to discuss game development on the PC, Xbox
+			360, and Windows Phone 7...and, above all, have fun! 
+		</p>
+		<ul id='social'>
+			<li id='twitter'><a href='http://www.twitter.com/ctxna' target='_blank'><i><span>Twitter</span></i>Follow @ctxna on Twitter</a></li>
+			<li id='facebook'><a href='http://www.facebook.com/group.php?gid=141015773364' target='_blank'><i><span>Facebook</span></i>Visit our Facebook page</a></li>
+			<li id='rss'><a href='#'><i><span>RSS</span></i>Subscribe to meeting notifications</a></li>
+		</ul>
+	</section>
+	<section>
+		<h1><span>Proudly Sponsored By</span></h1>
+		<ul id='sponsors'>
+			<li id='headspring'><a href='http://www.headspring.com/' target='_blank'>Headspring</a></li>
+			<li id='pluralsight'><a href='http://www.pluralsight-training.net/' target='_blank'>Pluralsight</a></li>
+			<li id='jetbrains'><a href='http://www.jetbrains.com/' target='_blank'>JetBrains</a></li>
+		</ul>
+	</section>
+	<p id='footer'>Copyright &copy; 2011 &middot; Design by <a href='http://timgthomas.com/'>Tim G. Thomas</a></p>
+</body>
+
+</html>
