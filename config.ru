@@ -13,6 +13,7 @@ end
 # Create and configure a toto instance
 #
 toto = Toto::Server.new do
+  set :url, 'http://ctxna.org'
   #
   # Add your settings here
   # set [:setting], [value]
