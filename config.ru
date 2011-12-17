@@ -13,7 +13,10 @@ end
 # Create and configure a toto instance
 #
 toto = Toto::Server.new do
-  set :url, 'http://ctxna.org'
+  set :title,  'Central Texas XNA User Group'
+  set :url,    'http://ctxna.org'
+  set :author, 'Tim G. Thomas'
+  
   #
   # Add your settings here
   # set [:setting], [value]

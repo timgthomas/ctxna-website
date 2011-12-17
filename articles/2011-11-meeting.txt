@@ -1,7 +1,18 @@
 title: Randomizers, Meeples, and Metaphysics:<br />Game Design and Philosophy
+text_title: 'November 2011 - Randomizers, Meeples, and Metaphysics: Game Design and Philosophy'
 author: Jonathan Leistiko
 date: 3/11/2011
 
-Want to make better games? This evening, we'll share and explore some basic tools you can use to deconstruct your game (and your favorite games), take 'em apart, see what makes them tick, and put them back together better than they were before. Along the way, we'll talk about how to create, prototype, playtest, and publish your own board games.
+Want to make better games? This evening, we'll share and explore some basic
+tools you can use to deconstruct your game (and your favorite games), take 'em
+apart, see what makes them tick, and put them back together better than they
+were before. Along the way, we'll talk about how to create, prototype, playtest,
+and publish your own board games.
 
-Jonathan Leistiko has worked in the board and hobby game industry as a retailer, publisher, developer, writer, and designer for companies including Steve Jackson Games, Alderac Entertainment Group, and Dystopian Holdings. He published 120 free print-and-play games with Invisible City Productions, is the designer of three commercially published games, and is the organizer for Protospiel South, an annual Austin-based board game convention where board game designers test game prototypes.
+Jonathan Leistiko has worked in the board and hobby game industry as a retailer,
+publisher, developer, writer, and designer for companies including Steve Jackson
+Games, Alderac Entertainment Group, and Dystopian Holdings. He published 120
+free print-and-play games with Invisible City Productions, is the designer of
+three commercially published games, and is the organizer for Protospiel South,
+an annual Austin-based board game convention where board game designers test
+game prototypes.
