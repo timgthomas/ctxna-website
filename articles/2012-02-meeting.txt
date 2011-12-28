@@ -1,0 +1,18 @@
+title: Text Adventure Game Engine Using XNA
+text_title: 'February 2012 - Text Adventure Game Engine Using XNA'
+author: Nathan Alden
+date: 2/2/2012
+
+In this session we'll explore a game engine written in C#/.NET and XNA that
+emulates and improves upon the classic DOS game from 1991, 'ZZT'. ZZT is a
+text-based adventure game where the player is represented as a smiley face
+(ASCII 0x1 in code page 437). As the player, you can move between screens known
+as 'boards', collect gems and ammo, shoot monsters and interact with objects.
+ZZT was and is so popular that people are still to this day playing and creating
+ZZT worlds. Some of the topics we'll cover include:
+
+* objects
+* commands
+* events
+* serialization
+* use of XNA

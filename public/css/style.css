@@ -120,6 +120,10 @@ section ul {
   padding-top: 10px;
   text-align: justify;
   text-shadow: 0 1px 1px #151516; }
+.meeting ul {
+  list-style-type: circle;
+  margin: 10px 100px 0;
+  text-shadow: 0 1px 1px #151516; }
 .meeting .btn-register {
   clear: both;
   margin: 15px auto 10px;

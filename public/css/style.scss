@@ -193,6 +193,11 @@ section {
 		text-align: justify;
 		text-shadow: 0 1px 1px $shadow;
 	}
+	ul {
+		list-style-type: circle;
+		margin: 10px 100px 0;
+		text-shadow: 0 1px 1px $shadow;
+	}
 	
 	.btn-register {
 		clear: both;
