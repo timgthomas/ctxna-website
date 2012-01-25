@@ -1,11 +1,11 @@
-<h1><%= @path %></h1>
-<ul>
+<h1><span>Past Meetings</span></h1>
+<a class='btn-small' href='/archives'><i class='calendar'><span>Next Meeting</span></i>View the next meeting</a>
+<ul id='archives'>
   <% if archives.length > 0 %>
     <% for entry in archives %>
       <li>
-        <a href="<%= entry.path %>"><%= entry.title %></a>
+        <a href="<%= entry.path %>"><%= entry.text_title %></a>
       </li>
     <% end %>
   <% end %>
 </ul>
-

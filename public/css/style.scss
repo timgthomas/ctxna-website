@@ -39,7 +39,7 @@ body {
 	background: $background url('../img/bg.png') left top fixed;
 	color: #FFFFFF;
 	font-family: 'Abel', sans-serif;
-	font-size: 62.5%;
+	font-size: 16px;
 }
 a {
 	//@include transition;
@@ -53,7 +53,7 @@ a {
 a.btn {
 	background: url('../img/button.png') center top no-repeat;
 	color: #fff;
-	font-size: 1.7em;
+	font-size: 17px;
 	line-height: 40px;
 	text-align: center;
 	text-decoration: none;
@@ -77,7 +77,7 @@ body {
 	& > h1 {
 		background: url('../img/logo.png') center top no-repeat;
 		color: $highlight;
-		font-size: 2.0em;
+		font-size: 20px;
 		font-weight: normal;
 		text-align: center;
 		text-shadow: 0 2px 2px $shadow;
@@ -101,13 +101,16 @@ i {
 	span {
 		display: block;
 	}
+	
+	&.clock span { background: url('../img/icon-clock.png') center center no-repeat; }
+	&.calendar span { background: url('../img/icon-calendar.png') center center no-repeat; }
 }
 
 section {
 	& > h1 {
 		background: url('../img/subtitle.png') bottom center no-repeat;
 		
-		font-size: 1.8em;
+		font-size: 18px;
 		font-weight: normal;
 		text-align: center;
 		text-shadow: 0 2px 2px $shadow;
@@ -125,13 +128,19 @@ section {
 		}
 	}
 	& p {
-		font-size: 1.6em;
 		margin: 0 20px 10px;
 		text-align: justify;
 		text-shadow: 0 1px 1px $shadow;
 	}
 	& ul {
-		font-size: 1.6em;
+		list-style-type: circle;
+		text-shadow: 0 1px 1px $shadow;
+	}
+	
+	.btn {
+		clear: both;
+		margin: 15px auto 10px;
+		width: 150px;
 	}
 }
 
@@ -150,7 +159,6 @@ section {
 		background: $secondary-accent;
 		border-radius: 3px 3px 0 0;
 		display: block;
-		font-size: 1.6em;
 		height: $month-size;
 		padding: 0 5px;
 		line-height: $month-size;
@@ -162,7 +170,7 @@ section {
 		border-radius: 0 0 3px 3px;
 		color: #000;
 		display: block;
-		font-size: 5.0em;
+		font-size: 50px;
 		font-weight: bold;
 		height: $day-size;
 		line-height: $day-size;
@@ -174,35 +182,26 @@ section {
 	
 	h1 {
 		color: $secondary-accent;
-		font-size: 2.2em;
+		font-size: 22px;
 		font-weight: normal;
 		text-shadow: 0 2px 2px $shadow;
 	}
 	h2 {
 		color: $highlight;
-		font-size: 1.8em;
+		font-size: 18px;
 		font-weight: normal;
 		margin: 0 0 5px;
 		text-shadow: 0 2px 2px $shadow;
 	}
 	p {
 		clear: both;
-		font-size: 1.6em;
 		margin: 0 60px;
 		padding-top: 10px;
 		text-align: justify;
 		text-shadow: 0 1px 1px $shadow;
 	}
-	ul {
-		list-style-type: circle;
+	ul {	
 		margin: 10px 100px 0;
-		text-shadow: 0 1px 1px $shadow;
-	}
-	
-	.btn-register {
-		clear: both;
-		margin: 15px auto 10px;
-		width: 150px;
 	}
 }
 
@@ -216,6 +215,28 @@ section {
 em {
 	color: $secondary-accent;
 	font-style: normal;
+}
+
+// Relocate
+.btn-small {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	text-decoration: none;
+	text-shadow: 0 1px 1px $shadow;
+	
+	&:hover i {
+		background-position: center -40px;
+	}
+	i {
+		margin-right: 5px;
+		vertical-align: middle;
+		
+		& > span {
+			overflow: hidden;
+			text-indent: -9999px;
+		}
+	}
 }
 
 #social {
@@ -293,7 +314,7 @@ em {
 
 #footer {
 	color: $highlight;
-	font-size: 1.4em;
+	font-size: 16px;
 	text-align: center;
 	
 	margin: 20px 0;

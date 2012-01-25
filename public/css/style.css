@@ -6,7 +6,7 @@ body {
   background: #5e5e66 url("../img/bg.png") left top fixed;
   color: #FFFFFF;
   font-family: 'Abel', sans-serif;
-  font-size: 62.5%; }
+  font-size: 16px; }
 
 a {
   color: #fff; }
@@ -16,7 +16,7 @@ a {
 a.btn {
   background: url("../img/button.png") center top no-repeat;
   color: #fff;
-  font-size: 1.7em;
+  font-size: 17px;
   line-height: 40px;
   text-align: center;
   text-decoration: none;
@@ -35,7 +35,7 @@ section {
 body > h1 {
   background: url("../img/logo.png") center top no-repeat;
   color: #9e9ea6;
-  font-size: 2.0em;
+  font-size: 20px;
   font-weight: normal;
   text-align: center;
   text-shadow: 0 2px 2px #151516;
@@ -52,10 +52,14 @@ i {
   width: 40px; }
   i span {
     display: block; }
+  i.clock span {
+    background: url("../img/icon-clock.png") center center no-repeat; }
+  i.calendar span {
+    background: url("../img/icon-calendar.png") center center no-repeat; }
 
 section > h1 {
   background: url("../img/subtitle.png") bottom center no-repeat;
-  font-size: 1.8em;
+  font-size: 18px;
   font-weight: normal;
   text-align: center;
   text-shadow: 0 2px 2px #151516;
@@ -67,12 +71,16 @@ section > aside {
   section > aside .address {
     margin-left: 45px; }
 section p {
-  font-size: 1.6em;
   margin: 0 20px 10px;
   text-align: justify;
   text-shadow: 0 1px 1px #151516; }
 section ul {
-  font-size: 1.6em; }
+  list-style-type: circle;
+  text-shadow: 0 1px 1px #151516; }
+section .btn {
+  clear: both;
+  margin: 15px auto 10px;
+  width: 150px; }
 
 #date {
   box-shadow: 0 8px 12px -6px rgba(0, 0, 0, 0.5);
@@ -86,7 +94,6 @@ section ul {
     background: #f6984a;
     border-radius: 3px 3px 0 0;
     display: block;
-    font-size: 1.6em;
     height: 20px;
     padding: 0 5px;
     line-height: 20px; }
@@ -95,7 +102,7 @@ section ul {
     border-radius: 0 0 3px 3px;
     color: #000;
     display: block;
-    font-size: 5.0em;
+    font-size: 50px;
     font-weight: bold;
     height: 60px;
     line-height: 60px;
@@ -103,30 +110,23 @@ section ul {
 
 .meeting h1 {
   color: #f6984a;
-  font-size: 2.2em;
+  font-size: 22px;
   font-weight: normal;
   text-shadow: 0 2px 2px #151516; }
 .meeting h2 {
   color: #9e9ea6;
-  font-size: 1.8em;
+  font-size: 18px;
   font-weight: normal;
   margin: 0 0 5px;
   text-shadow: 0 2px 2px #151516; }
 .meeting p {
   clear: both;
-  font-size: 1.6em;
   margin: 0 60px;
   padding-top: 10px;
   text-align: justify;
   text-shadow: 0 1px 1px #151516; }
 .meeting ul {
-  list-style-type: circle;
-  margin: 10px 100px 0;
-  text-shadow: 0 1px 1px #151516; }
-.meeting .btn-register {
-  clear: both;
-  margin: 15px auto 10px;
-  width: 150px; }
+  margin: 10px 100px 0; }
 
 .map {
   border-radius: 3px;
@@ -137,6 +137,21 @@ section ul {
 em {
   color: #f6984a;
   font-style: normal; }
+
+.btn-small {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  text-shadow: 0 1px 1px #151516; }
+  .btn-small:hover i {
+    background-position: center -40px; }
+  .btn-small i {
+    margin-right: 5px;
+    vertical-align: middle; }
+    .btn-small i > span {
+      overflow: hidden;
+      text-indent: -9999px; }
 
 #social {
   list-style: none;
@@ -189,7 +204,7 @@ em {
 
 #footer {
   color: #9e9ea6;
-  font-size: 1.4em;
+  font-size: 16px;
   text-align: center;
   margin: 20px 0;
   text-shadow: 0 1px 1px #151516; }
